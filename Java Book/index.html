@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Book</title>
+	<link rel="stylesheet" type="text/css" href="content.css">
+</head>
+<body>
+	<dl>
+			<dt>Chapter 1</dt>
+				<dd>Overview of program, p. 28</dd>
+				<dd>Comparision of Java IDEs, p. 41</dd>
+				<dd>Examples of various error types, p. 43</dd>
+				<dd>Developing a solution of PP 1.2, p. 55</dd>
+			<dt>Chapter 2</dt>
+				<dd>Example using strings and escape sequences, p. 63</dd>
+				<dd>Review of primitive data and expressions, p. 76</dd>
+				<dd>Example using the Scanner data, p. 91</dd>
+				<dd>Example using drawn shapes, p. 101</dd>
+				<dd>Developing a solution of PP 2.8, p.109</dd>
+			<dt>Chapter 3</dt>
+				<dd>Creating objects, p. 115</dd>
+				<dd>Example using the Random and Math classes, p. 129</dd>
+				<dd>Example using frames and panels, p. 150</dd>
+				<dd>Developing a solution of PP 3.5, p. 157</dd>
+			<dt>Chapter 4</dt>
+				<dd>Dissecting the Die class, p. 164</dd>
+				<dd>Discussion of the Account class, p. 178</dd>
+				<dd>Example using an extended JPanel, p. 182</dd>
+				<dd>Overview of GUI development, p. 191</dd>
+				<dd>Developing a solution of PP 4.2, p. 202</dd>
+			<dt>Chapter 5</dt>
+				<dd>Examples using conditionals, p. 221</dd>
+				<dd>Examples using while loops, p. 233</dd>
+				<dd>Examples using check boxes and radio buttons, p. 255</dd>
+				<dd>Developing a solution of PP 5.4, p. 264</dd>
+		</dl>
+	<h1><span>Preface</span></h1>
+	<br />
+	<br />
+	<div id = "whole">
+		<p>Welcome to the Seventh Edition of Java Software Solutions: Foundations of Program Design. We are pleased that this book has served the needs of so many students and faculty over the years. This edition has been tailored further to improve the coverage of topics key to introductory computing.</p>
+		<h3 class = "blue">New to This Edition</h3>
+		<ul>
+			<li>Split Chapter 5 of the 6th edition into two for better coverage and flow.</li>
+			<li>Moved the coverage of the <span class = "blue">ArrayList</span> class earlier in the book to permit more interesting projects earlier.</li>
+			<li>Improved the discussion of an array as a programming construct.</li>
+			<li>Improved the discussions of visibility modifiers, especially regarding the <span class = "blue">protected</span> modifier.</li>
+			<li>Replaced and updated examples throughout the book.</li>
+			<li>Replaced, updated, and added exercises and programming projects.</li>
+			<li>Available with MyProgrammingLab (see details later in this Preface).</li>
+		</ul>
+		<p class = "indent">Feedback from both instructors and students continues to make it clear that we have hit the mark with the overall vision of the book. The emphasis remains on presenting underlying core concepts in a clear and gradual man- ner. The Graphics Track sections in each chapter still segregate the coverage of graphics and graphical user interfaces, giving extreme flexibility in how that material gets covered. The casual writing style and entertaining examples still rule the day.</p>
+		<p class = "indent">The enhancements in this edition are designed to allow the instructor more flexibility in topic coverage. In an attempt to cover all issues related to condi- tionals and loops, Chapter 5 in the previous edition had become very large and a bit too encyclopedic. In this edition that chapter has been carefully redesigned into two, giving the coverage of those topics a better flow. The new organization allows more interesting examples to be explored earlier.</p>
+		<p class = "indent">One effect of this reorganization is that it allowed us to bring the coverage of the <span class = "blue">ArrayList</span> class earlier in the book. Although arrays are used internally to implement the <span class = "blue">ArrayList</span> class, there is no reason to wait for arrays to be covered to introduce the <span class = "blue">ArrayList</span> class. Like many other classes in the Java API, the <span class = "blue">ArrayList</span> class can be used without needing to know how it works internally. An <span class = "blue">ArrayList</span> object can be used for its (very valuable) functionality as soon as loops are available. The new organization in this edition does exactly that. If the instruc- tor chooses, coverage of <span class = "blue">ArrayList</span> can still be deferred as it has been before, but now the option is there to introduce them earlier.</p>
+		<p class = "indent">In addition to these changes, various discussions throughout the book have been revamped and improved. For example, the explanation of the effects of the <span class = "blue">protected</span> visibility modifier has enhanced to clarify its use. Furthermore, throughout the book older examples have been rejuvenated, and end-of-chapter exercises and programming projects have been augmented.</p>
+
+		<h2><span id = "heading">1.3</span> Networks</h2>
+		<p>A single computer can accomplish a great deal, but connecting several computers together into networks can dramatically increase productivity and facilitate the sharing of information. A network consists of two or more computers connected together so they can exchange information. Using networks has become the nor<span class = "box" style="font-size: 70%"><span class = "blue" style = "font-size: 110%">KEY CONCEPT</span><br />A network consists of two or more computers connected together so that they can exchange informations.</span>mal mode of commercial computer operation. New technologies are emerging every day to capitalize on the connected environments of modern computer systems.</p>
+		<p class = "indent">Figure 1.15 shows a simple computer network. One of the devices on the network is a printer, which allows any computer connected to the network to print a document on that printer. One of the computers on the network is designated as a file server, which is dedicated to storing programs and data that are needed by many network users. A file server usually has a large amount of secondary memory. When a network has a file server, each individual computer doesn’t need its own copy of a program.</p>
+
+		<table align="center">
+			<tr>
+				<th>Hight-Level Language</th>
+				<th>Assembly Language</th>
+				<th>Machine Language</th>
+			</tr>
+			<tr>
+				<td>a+b</td>
+				<td>1d [%fp-20], %o0</td>
+				<td>...</td>
+			</tr>
+			<tr class = "even">
+				<td></td>
+				<td>1d [%fp-24], %o1</td>
+				<td>1101 0000 0000 0111</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>add %o0, %o1, %o0</td>
+				<td>1011 1111 1110 1000</td>
+			</tr>
+			<tr class = "even">
+				<td></td>
+				<td></td>
+				<td>1101 0010 0000 0111</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>1011 1111 1110 1000</td>
+			</tr>
+			<tr class = "even">
+				<td></td>
+				<td></td>
+				<td>1001 0000 0000 0000</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>...</td>
+			</tr>
+			<caption style="vertical-align: bottom"><span class="blue">FIGURE 1.19</span> A high-level expression and its assembly language and machine language equivalent</caption>
+		</table>
+	</div>
+</body>
+</html>

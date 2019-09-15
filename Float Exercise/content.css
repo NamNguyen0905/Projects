@@ -1,0 +1,20 @@
+.firstdiv{
+	float  : left;
+	width  : 620px;
+	margin : 10px 50px 10px 200px; 
+}
+.seconddiv{
+	float  : right;
+	width  : 300px;
+	margin : 10px 100px 10px 50px;
+}
+.thirddiv{
+	float  : right;
+	width  : 300px;
+	margin : 10px 100px 10px 50px;
+}
+.fourthdiv{
+	float  : left;
+	width  : 620px;
+	margin : 10px 50px 10px 200px;
+}

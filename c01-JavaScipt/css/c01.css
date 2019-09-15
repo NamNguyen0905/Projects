@@ -1,0 +1,7 @@
+h1 {
+	text-decoration: line-through;
+}
+ul.test{
+	/*	list-style-position: inside;	*/
+	list-style: inside square;
+}

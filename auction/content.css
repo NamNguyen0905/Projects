@@ -1,0 +1,46 @@
+body{
+	font-family      : 'Times New Roman', Arial, sans-serif;
+	color            : #000000;
+	background-color : #66FFFF;
+}
+table{
+	width          : 600px;
+/*	border-spacing : 1px 1px;	*/
+	border-collapse: separate;
+}
+th, td{
+	padding : 6px 10px 10px 10px;
+	border  : 2px solid #000000;
+}
+th{
+	text-align       : center;
+	font-size        : 90%;
+	border-top       : 1px solid #FC0107;
+	border-bottom    : 3px solid #000000;
+	background-color : #800002;
+	color            : #FFFFFF;
+}
+tr.even{
+	background-color: #E6E6E6;
+}
+tr:hover{
+	background-color: #800040;
+}
+.money{
+	text-align: right;
+}
+input.text_input{
+	color: #FC0107;
+	border: 3px inset #000000;
+	border-radius: 8px;
+	margin: 4px 4px 4px 4px;
+}
+input.text_input:focus{
+	background-color: #E6E6E6;
+}
+input.text_input:hover{
+	background-color: #800040;
+}
+.pointer:hover{
+	cursor: pointer;
+}

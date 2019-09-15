@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>My First Web Page</title>
+	</head>
+	<body>
+		<h1>Welcome to My First Web Page</h1>
+			<p>This is a HTML page that I created in SublimeText.</p>
+		<h2>Scrambled Eggs</h2>
+			<p>Eggs are one of my favourite foods. Here is a recipe for deliciously rich scrambled eggs.</p>
+		<h3>Ingredients</h3>
+			<ol>
+				<li>Chop potatoes into quarters</li>
+				<li>Simmer in salted water for 15-20 minutes until tender</li>
+				<li>Heat milk, butter and nutmeg</li>
+				<li>Drain potatoes and mash</li>
+				<li>Mix in the milk mixture</li>
+			</ol>
+		<a href = "http://www.imdb.com" target = "_blank">Internet Movie Database</a><br />
+
+		<h3 id = "top">Film-Making Terms</h3>
+		<a href = "#arc_shot">Arc Shoot</a><br />
+		<a href = "#interlude">Interlude</a><br />
+		<a href = "#prologue">Prologue</a><br />
+		<h2 id = "arc_shot">Arc Shot</h2>
+			<p>A shot in which the subject is photographed by an encircling or moving camera</p>
+		<h2 id = "interlude">Interlude</h2>
+			<p>A brief, intervening film scene or sequence, not specifically tied to the plot, that appears within a film</p>
+		<h2 id = "prologue">Prologue</h2>
+			<p>A speech, preface, introduction, or brief scene preceding the the main action or plot of a film; contrast to epilogue</p>
+		<a href = "#top">Return to Top</a>
+
+		<table>
+			<tr>
+				<th></th>
+				<th scope = "col">Saturday</th>
+				<th scope = "col">Sunday</th>
+			</tr>
+			<tr>
+				<th scope = "row" style = "text-align: left">Tickets solds:</th>
+				<td>120</td>
+				<td>135</td>
+			</tr>
+			<tr>
+				<th scope = "row" style = "text-align: left">Total sales:</th>
+				<td>$600</td>
+				<td>$675</td>
+			</tr>
+		</table>
+
+		<form action="http://www.example.com/profile.php">
+			<p>Please select your favorite genre:
+	 			<br />
+		 			<input type="radio" name="genre" value="rock" />Rock
+		 			<input type="radio" name="genre" value="pop" />Pop
+		 			<input type="radio" name="genre" value="jazz" />Jazz
+			</p>
+		</form>
+
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Email:<br />
+				<input type = "text" name = "email">
+			<label>
+			<br />
+			<label>Mobile:<br />
+				<input type = "text" name = "mobile" placeholder = "Fuck you">
+			</label>
+			<br />
+			<label>Telephone:<br />
+				<input type = "text" name = "telephone">
+			</label>
+		</fieldset>
+		<ul>
+			<dl>
+				<li><dt>Sashimi</dt></li>
+					<dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy sauce</dd>
+				<li><dt>Scale</dt></li>
+					<dd>A device used to accurately measure the weight of ingredients</dd>
+					<dd>A technique by which the scales are removed from the skin of a fish</dd>
+				<li><dt>Scamorze</dt></li>
+				<li><dt>Scamorzo</dt></li>
+					<dd>An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo milk)</dd>
+			</dl>
+		</ul>
+
+		<form action = "http://www.example.com/upload.php" method = "post">
+			<p>Upload your song in MP3 format:</p>
+			<input type = "file" name = "user-song" /><br />
+			<input type = "submit" value = "Upload" />
+		</form>
+
+		<video poster="images/puppy.jpg" width="400" height="320" controls="controls">
+			<source src="video/puppy.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+			<source src="video/puppy.webm" type='video/webm;codecs="vp8, vorbis"' />
+ 		</video>
+
+		<figure>
+			<img src = "test.png" alt = "something" />
+			<figcaption style="text-align: center;">PatchWork</figcaption>
+		</figure>
+	</body>
+</html>
