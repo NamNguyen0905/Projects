@@ -1,0 +1,64 @@
+/*
+	font-family: 'Gayathri', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
+
+	colors
+	light cyan: #DDFFF7
+	blue: #93E1D8
+	orange yellpw: #FFA69E
+	gunmetal: #27233A
+	red: #CE1483
+	tumbleweed: #E0A890
+	offwhite: #D3EBEA
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after, {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	background: #1998;
+}
+
+#banner {
+	background: #2708;
+}
+
+#banner h1 {
+	font-family: 'Gayathri', sans-serif;
+	text-align: center;
+}
+
+nav {
+	background: #2407;
+	text-align: center;
+}
+
+nav a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+
+.Huge {
+	font-size: 3em;
+}
+
+nav a:hover {
+	font-size: 2em;
+	background: #2609;
+	border-radius: 20px;
+	padding: 1em 1em;
+}
